@@ -72,3 +72,21 @@ python src/cliente.py
 
 - **Lenguaje:** Python 3.x (Módulos nativos `socket`, `json` y `concurrent.futures`)
 - **Diseño Arquitectónico:** diagramas.net (Draw.io)
+
+---
+
+## 🧪 Pruebas de Sistema
+
+A continuación se muestra la interacción simultánea de los tres módulos en consola, donde se observa al Cliente obteniendo las respuestas, al Distribuidor enrutando la carga y al Worker procesando concurrentemente mediante hilos las etapas de RabbitMQ, PostgreSQL y AWS S3:
+
+**Cliente — Recepción de respuestas:**
+
+![Captura Cliente](docs/captura1.png)
+
+**Distribuidor — Enrutamiento de carga:**
+
+![Captura Distribuidor](docs/captura2.png)
+
+**Worker — Procesamiento concurrente por hilos:**
+
+![Captura Worker](docs/captura3.png)
