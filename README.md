@@ -16,7 +16,7 @@ El flujo de la información dentro de la infraestructura distribuida sigue el si
 
 A continuación se detalla el flujo de componentes interactuando de forma descentralizada:
 
-![Diagrama de Arquitectura Distribuida](docs/diagrama.png)
+![Diagrama de Arquitectura Distribuida](docs/Diagrama.png)
 
 ---
 
